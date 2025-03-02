@@ -1,5 +1,6 @@
+package chapter07;
 
-public class This01 {
+public class c7_This01 {
 
 	//编写一个main方法
 	public static void main(String[] args) {

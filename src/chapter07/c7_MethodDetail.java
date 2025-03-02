@@ -1,10 +1,11 @@
+package chapter07;
 
-public class MethodDetail {
+public class c7_MethodDetail {
 
 
 	public static void main(String[] args) {
 
-		AA a = new AA();
+		aa a = new aa();
 		int[] res = a.getSumAndSub(1, 4);
 		System.out.println("和=" + res[0]);
 		System.out.println("差=" + res[1]);

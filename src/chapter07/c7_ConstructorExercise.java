@@ -1,14 +1,15 @@
+package chapter07;
 
-public class ConstructorExercise {
+public class c7_ConstructorExercise {
 
 	//编写一个main方法
 	public static void main(String[] args) {
-		Person p1 = new Person();//无参构造器
+		Person_n p1 = new Person_n();//无参构造器
 
 		//下面输出 name = null, age = 18
 		System.out.println("p1的信息 name=" + p1.name + " age=" + p1.age);
 
-		Person p2 = new Person("scott", 50);
+		Person_n p2 = new Person_n("scott", 50);
 		//下面输出 name = scott, age = 50
 		System.out.println("p2的信息 name=" + p2.name + " age=" + p2.age);
 

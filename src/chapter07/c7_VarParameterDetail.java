@@ -1,11 +1,12 @@
+package chapter07;
 
-public class VarParameterDetail {
+public class c7_VarParameterDetail {
 
 	//编写一个main方法
 	public static void main(String[] args) {
 		//细节: 可变参数的实参可以为数组
 		int[] arr = {1, 2, 3};
-		T t1 = new T();
+		T11 t1 = new T11();
 		t1.f1(arr);
 	}
 }

@@ -1,10 +1,11 @@
+package chapter07;
 
-public class ConstructorDetail {
+public class c7_ConstructorDetail {
 
 	//编写一个main方法
 	public static void main(String[] args) {
-		Person p1 = new Person("king", 40);//第1个构造器
-		Person p2 = new Person("tom");//第2个构造器
+		Person_n p1 = new Person_n("king", 40);//第1个构造器
+		Person_n p2 = new Person_n("tom");//第2个构造器
 
 		Dog dog1 = new Dog();//使用的是默认的无参构造器
 

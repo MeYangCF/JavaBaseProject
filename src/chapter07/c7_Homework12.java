@@ -1,5 +1,6 @@
+package chapter07;
 
-public class Homework12 {
+public class c7_Homework12 {
 
 	//编写一个main方法
 	public static void main(String[] args) {

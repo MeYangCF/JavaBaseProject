@@ -1,3 +1,5 @@
+package chapter07;
+
 import java.util.Random;
 import java.util.Scanner;
 
@@ -8,7 +10,7 @@ import java.util.Scanner;
 并要可以显示 Tom的输赢次数（清单）, 假定 玩三次.
  */
 // 测试类,主类
-public class MoraGame {
+public class c7_MoraGame {
 
     // 测试
     public static void main(String[] args) {

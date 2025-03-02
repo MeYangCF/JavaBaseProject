@@ -1,5 +1,6 @@
+package chapter07;
 
-public class Test {   //公有类
+public class c7_Test {   //公有类
     int count = 9; //属性
     public void count1() { //Test类的成员方法
         count=10;//这个count就是属性  改成 10

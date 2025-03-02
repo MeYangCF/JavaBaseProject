@@ -1,4 +1,6 @@
-public class MethodDetail02 {
+package chapter07;
+
+public class c7_MethodDetail02 {
 
 	//编写一个main方法
 	public static void main(String[] args) {
@@ -28,7 +30,7 @@ class A {
 	public void m1() {
 		//创建B对象, 然后在调用方法即可
 		System.out.println("m1() 方法被调用");
-		B b = new B();
+		B_n b = new B_n();
 		b.hi();
 
 		System.out.println("m1() 继续执行:)");

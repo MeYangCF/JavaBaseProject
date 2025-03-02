@@ -1,10 +1,11 @@
+package chapter07;
 
-public class Constructor01 {
+public class c7_Constructor01 {
 
 	//编写一个main方法
 	public static void main(String[] args) {
 		//当我们new 一个对象时，直接通过构造器指定名字和年龄
-		Person p1 = new Person("smith", 80);
+		Person_n p1 = new Person_n("smith", 80);
 		System.out.println("p1的信息如下");
 		System.out.println("p1对象name=" + p1.name);//smith
 		System.out.println("p1对象age=" + p1.age);//80

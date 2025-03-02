@@ -1,10 +1,11 @@
+package chapter07;
 
-public class RecursionExercise01 {
+public class c7_RecursionExercise01 {
 
 	//编写一个main方法
 	public static void main(String[] args) {
 
-		T t1 = new T();
+		T11 t1 = new T11();
 		// int n = 7;
 		// int res = t1.fibonacci(n);
 		// if(res != -1) {

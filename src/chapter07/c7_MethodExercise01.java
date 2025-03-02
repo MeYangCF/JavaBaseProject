@@ -1,11 +1,11 @@
+package chapter07;
 
-
-public class MethodExercise01 {
+public class c7_MethodExercise01 {
 
 	//编写一个main方法
 	public static void main(String[] args) {
 
-		AA a = new AA();
+		aa a = new aa();
 		// if(a.isOdd(2)) {//T , 这样的写法以后会看到很多
 		// 	System.out.println("是奇数");
 		// } else {

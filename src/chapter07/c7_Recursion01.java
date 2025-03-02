@@ -1,10 +1,11 @@
+package chapter07;
 
-public class Recursion01 {
+public class c7_Recursion01 {
 
 	//编写一个main方法
 	public static void main(String[] args) {
 
-		T t1 = new T();
+		T11 t1 = new T11();
 		t1.test(4);//输出什么？ n=2 n=3 n=4
 		int res = t1.factorial(5);
 		System.out.println("5的阶乘 res =" + res);

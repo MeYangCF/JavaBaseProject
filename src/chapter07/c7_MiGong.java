@@ -1,5 +1,6 @@
+package chapter07;
 
-public class MiGong {
+public class c7_MiGong {
 
 	//编写一个main方法
 	public static void main(String[] args) {
@@ -36,7 +37,7 @@ public class MiGong {
 		}
 
 		//使用findWay给老鼠找路
-		T t1 = new T();
+		T11 t1 = new T11();
 		//下右上左
 		t1.findWay(map, 1, 1);
 

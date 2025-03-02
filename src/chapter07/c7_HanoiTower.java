@@ -1,5 +1,6 @@
+package chapter07;
 
-public class HanoiTower {
+public class c7_HanoiTower {
 
 	//编写一个main方法
 	public static void main(String[] args) {

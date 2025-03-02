@@ -1,5 +1,6 @@
+package chapter07;
 
-public class VarParameter01 {
+public class c7_VarParameter01 {
 
 	//编写一个main方法
 	public static void main(String[] args) {

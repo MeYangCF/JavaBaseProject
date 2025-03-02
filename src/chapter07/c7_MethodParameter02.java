@@ -1,9 +1,10 @@
+package chapter07;
 
-public class MethodParameter02 {
+public class c7_MethodParameter02 {
 	//编写一个main方法
 	public static void main(String[] args) {
 		//测试
-		B b = new B();
+		B_n b = new B_n();
 		// int[] arr = {1, 2, 3};
 		// b.test100(arr);//调用方法
 		// System.out.println(" main的 arr数组 ");
@@ -14,7 +15,7 @@ public class MethodParameter02 {
 		// System.out.println();
 
 		//测试
-		Person p = new Person();
+		person p = new person();
 		p.name = "jack";
 		p.age = 10;
 		b.test200(p);
@@ -23,15 +24,15 @@ public class MethodParameter02 {
 		System.out.println("main 的p.age=" + p.age);//10000
 	}
 }
-class Person {
+class person {
 	String name;
 	int age;
 }
-class B {
-	public void test200(Person p) {
+class B_n {
+	public void test200(person p) {
 		//p.age = 10000; //修改对象属性
 		//思考
-		p = new Person();
+		p = new person();
 		p.name = "tom";
 		p.age = 99;
 		//思考

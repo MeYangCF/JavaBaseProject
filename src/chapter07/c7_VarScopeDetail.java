@@ -1,5 +1,6 @@
+package chapter07;
 
-public class VarScopeDetail {
+public class c7_VarScopeDetail {
 
 	//编写一个main方法
 	public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class VarScopeDetail {
 		//p1.say();//当执行say方法时，say方法的局部变量比如name,会创建，当say执行完毕后
 		//name局部变量就销毁,但是属性(全局变量)仍然可以使用
 		//
-		T t1 = new T();
+		T11 t1 = new T11();
 		t1.test(); //第1种跨类访问对象属性的方式
 
 		t1.test2(p1);//第2种跨类访问对象属性的方式
@@ -20,7 +21,7 @@ public class VarScopeDetail {
 	}
 }
 
-class T {
+class T11 {
 
 	//全局变量/属性：可以被本类使用，或其他类使用（通过对象调用)
 	public void test() {

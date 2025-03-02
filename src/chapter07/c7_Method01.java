@@ -1,12 +1,13 @@
+package chapter07;
 
-public class Method01 {
+public class c7_Method01 {
 
 	//编写一个main方法
 	public static void main(String[] args) {
 		//方法使用
 		//1. 方法写好后，如果不去调用(使用)，不会输出
 		//2. 先创建对象 ,然后调用方法即可
-		Person p1 = new Person();
+		Person_n p1 = new Person_n();
 		p1.speak(); //调用方法
 		p1.cal01(); //调用cal01方法
 		p1.cal02(5); //调用cal02方法，同时给n = 5
@@ -19,7 +20,7 @@ public class Method01 {
 	}
 }
 
-class Person {
+class Person_n {
 
 	String name;
 	int age;

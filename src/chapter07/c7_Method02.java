@@ -1,5 +1,6 @@
+package chapter07;
 
-public class Method02 {
+public class c7_Method02 {
 
 	//编写一个main方法
 	public static void main(String[] args) {
@@ -8,7 +9,7 @@ public class Method02 {
 		int [][] map =  {{0,0,1},{1,1,1},{1,1,3}};
 
 		//使用方法完成输出, 创建MyTools对象
-		MyTools tool = new MyTools();
+		MyTools_n tool = new MyTools_n();
 
 		//遍历map数组
 		//传统的解决方式就是直接遍历

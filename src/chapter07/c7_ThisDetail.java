@@ -1,12 +1,13 @@
+package chapter07;
 
-public class ThisDetail {
+public class c7_ThisDetail {
 
 	//编写一个main方法
 	public static void main(String[] args) {
 
 		// T t1 = new T();
 		// t1.f2();
-		T t2 = new T();
+		T11 t2 = new T11();
 		t2.f3();
 
 	}
