@@ -29,7 +29,7 @@ public class c6_BubbleSort {
 
             for( int j = 0; j < arr.length - 1 - i; j++) {//4次比较-3次-2次-1次
                 //如果前面的数>后面的数，就交换
-                if(arr[j] > arr[j + 1]) {
+                if(arr[j]  > arr[j + 1]) {
                     temp = arr[j];
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
