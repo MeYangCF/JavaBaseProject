@@ -7,7 +7,7 @@ public class c7_PropertiesDetail {
 		//创建Person对象
 		//p1 是对象名(对象引用)
 		//new Person() 创建的对象空间(数据) 才是真正的对象
-		Person p1 = new Person();
+		Person12 p1 = new Person12();
 
 		//对象的属性默认值，遵守数组规则:
 		//int 	0，short 0, byte 0, long 0, float 0.0,double 0.0，char \u0000，boolean false，String null

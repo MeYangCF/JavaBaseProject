@@ -4,7 +4,7 @@ public class c7_VarScopeDetail {
 
 	//编写一个main方法
 	public static void main(String[] args) {
-		Person p1 = new Person();
+		Person12 p1 = new Person12();
 		/*
 		属性生命周期较长，伴随着对象的创建而创建，伴随着对象的销毁而销毁。
 		局部变量，生命周期较短，伴随着它的代码块的执行而创建，
@@ -25,11 +25,11 @@ class T11 {
 
 	//全局变量/属性：可以被本类使用，或其他类使用（通过对象调用)
 	public void test() {
-		Person p1 = new Person();
+		Person12 p1 = new Person12();
 		System.out.println(p1.name);//jack
 	}
 
-	public void test2(Person p) {
+	public void test2(Person12 p) {
 		System.out.println(p.name);//jack
 	}
 }
